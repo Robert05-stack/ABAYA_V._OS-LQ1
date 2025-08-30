@@ -1,0 +1,169 @@
+Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Lenovo>cd downloads
+
+C:\Users\Lenovo\Downloads>md ABAYA_V._OS-LQ1
+
+C:\Users\Lenovo\Downloads>cd ABAYA_V._OS-LQ1
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>md "src" "common" "installer" "cache" "user"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>cd src
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\src>md "a" "b" "c" "d" "e" "f" "g"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\src>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>cd common
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\common>md "h" "i" "j" "k" "l" "m"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\common>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>cd installer
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\installer>md "installer_folder"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\installer>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>cd cache
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\cache>md  "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "x" "y" "z"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\cache>md  "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\cache>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>cd user
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>md "user_jerico" "user_eliza" "user_juan"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_jerico
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>md "user_profile" "user_settings" "user_preferences"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>cd user_profile
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_profile>md "jerico estabillo"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_profile>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_settings>
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_settings>md "OSversion" "AppVersion"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>xcopy "user_jerico" "user_eliza" /E /I
+0 File(s) copied
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>xcopy "user_jerico" "user_juan" /E /I
+0 File(s) copied
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_eliza
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_eliza>cd user_profile
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_eliza\user_profile>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_eliza>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_juan
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan>cd user_profile
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan\user_profile>ren "jerico estabillo" "juan pablo"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan\user_profile>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_jerico
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_settings>cd AppVersion
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_settings\AppVersion>md "sampleApp_v2" "sampleAppv3" "sample_V5"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_settings\AppVersion>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>move "user_jerico\user_settings\AppVersion\sampleAppv3" "user_eliza\user_settings\AppVersion"
+        1 dir(s) moved.
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>move "user_jerico\user_settings\AppVersion\sample_V5" "user_juan\user_settings\AppVersion"
+        1 dir(s) moved.
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_eliza
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_eliza>cd user_settings
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_eliza\user_settings>rmdir OSversion
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_eliza\user_settings>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_eliza>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_jerico
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_settings>rmdir OSversion
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_juan
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan>cd user_settings
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan\user_settings>rmdir OSversion
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan\user_settings>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_juan
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan>ren "user_preferences" "mode"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_juan>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_jerico
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>ren "user_preferences" "mode"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_jerico>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd user_eliza
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_eliza>ren "user_preferences" "mode"
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user\user_eliza>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\user>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>cd..
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>move "user\user_jerico\mode" "installer\installer_folder"
+        1 dir(s) moved.
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>move "user\user_eliza\mode" "installer\installer_folder"
+Overwrite C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\installer\installer_folder\mode? (Yes/No/All): yes
+Access is denied.
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>move "user\user_juan\mode" "installer\installer_folder"
+Overwrite C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1\installer\installer_folder\mode? (Yes/No/All): yes
+Access is denied.
+
+C:\Users\Lenovo\Downloads\ABAYA_V._OS-LQ1>
